@@ -6,25 +6,5 @@
         xmlns:local="clr-namespace:TestWPFApp"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Button Name="TestButton" Content="Кнопка" HorizontalAlignment="Left" Margin="369,228,0,0" VerticalAlignment="Top" Width="78" RenderTransformOrigin="0.5,0.5" Height="23">
-            <Button.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform x:Name="ButtonRotator" Angle="0.0"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Button.RenderTransform>
-        </Button>
-        <Slider Name="RotateAngleSlider"
-                HorizontalAlignment="Left"
-                Margin="263,307,0,0"
-                VerticalAlignment="Top"
-                Minimum="-360"
-                Maximum="+360"
-                RenderTransformOrigin="0.5,-0.591"
-                Width="300" ValueChanged="RotateAngleSlider_ValueChanged"/>
-
-    </Grid>
+    <Grid/>
 </Window>
